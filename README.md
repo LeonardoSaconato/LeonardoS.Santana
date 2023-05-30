@@ -18,10 +18,6 @@ Este repositório servirá para armazenar os códigos-fonte utilizados no projet
 
 LeonardoS.Santana é uma Landpage Pessoal que tem por objetivo a criação de um portfólio profissional, a fim de demonstrar os conhecimentos e projetos elaborados, conectar os clientes que desejam entrar em contato para o desenvolvimento de seus projetos.
 
-## Prototípo Wireframe do Projeto
-
-https://www.figma.com/file/KzoyGNeE0hfDrtbGQQSWFz/LeonardoS.Santana?type=design&node-id=2-5&t=zOfjGoslpBwUat6W-0
-
 ## Endereço da aplicação
 
 https://leonardosaconato.000webhostapp.com/
