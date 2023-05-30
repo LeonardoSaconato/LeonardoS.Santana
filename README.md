@@ -6,13 +6,12 @@ Este repositório servirá para armazenar os códigos-fonte utilizados no projet
 * **Período:** Noturno
 
 ## Integrantes
-|------------|--------------------------------------|-------|-------|
+
 |     RA     |            NOME COMPLETO             | CURSO | TURMA |
 |------------|--------------------------------------|-------|-------|
 | 3020202788 | Bruno Sabec dos Santos               | TADS  | 5A    |
 | 3021100499 | Leonardo Saconato de Santana         | TADS  | 5A    |
 | 3021100124 | Ricardo Italo Rodrigues dos Santos   | TADS  | 5A    |
-|------------|--------------------------------------|-------|-------|
 
 
 ## Descrição do Projeto
@@ -28,6 +27,7 @@ https://www.figma.com/file/KzoyGNeE0hfDrtbGQQSWFz/LeonardoS.Santana?type=design&
 https://leonardosaconato.000webhostapp.com/
 
 Caso o link acima não esteja funcionando utilize o outro endereço:
+
 https://leonardosaconato.z13.web.core.windows.net/
 
 ## Projetos utilizados como inspiração
