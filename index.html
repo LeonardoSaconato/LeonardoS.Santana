@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeonardoSSantana</title>
+    <link rel="icon" type="imagem/png" href="images/icon.png"/>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">LeonardoS.Santana</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Sessão Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá meu nome é</h3>
+            <h1>Leonardo Saconato</h1>
+            <p>Sou Analista de Help-Desk, Desenvolvedor WEB e UI/UX design.</p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/leonardo.saconatodesantana/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/leozin_i/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/LeonardoSaconato" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/leonardo-saconato-de-santana-64b29a1a0/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+
+            <a href="cv/Curriculo Leonardo Saconato.pdf" download="Curriculo leonardo Saconato.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code-block'></i> 
+                    <h3>Desenvolvedor</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-bulb'></i> 
+                    <h3>UX/UI Design</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-laptop'></i> 
+                    <h3>Help Desk</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="Fotografia de Leonardo, utilizando camisa social preta">
+        </div>
+    </section>
+
+    <!-- Sessão About "Sobre" -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="Fotografia de Leonardo, utilizando camisa social preta fazendo pose">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Quem sou <span>eu?</span></h2>
+            <h3>Prazer, me chamo Leonardo!</h3>
+            <p>Tenho 20 anos, sou uma pessoa que adora se comunicar, aprender e conhecer novas pessoas. Sou extremamente focado e decidido por natureza, sempre buscando inovar, trazendo novas ideias e procurando sempre fazer o melhor. Sempre tive muito interesse, no desenvolvimento de software e aplicações Web, design , manutenção e implantação de equipamentos de informática e afins. Ainda que possuo pouca experiência,
+             tenho muita paixão pela área, acredito que possa aprender e evoluir cada vez mais.</p>
+            <a href="#contact" class="btn">Contratar-me</a>
+        </div>
+    </section>
+
+    <!-- Sessão Serviços "Services" -->
+    <section class="services" id="services">
+        <h2 class="heading">Serviços <span>que ofereço</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-block'></i>
+                <h3>Desenvolvimento</h3>
+                <p>Desenvolvedor de Sites e aplicações WEB, HTML, CSS, JavaScript, PHP, MySQL.</p>
+                <a href="#contact" class="btn">Saiba Mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-bulb'></i>
+                <h3>UX e UI Design</h3>
+                <p>Criação de aplicações que ofereçam facilidade e conforto em sua usabilidade.</p>
+                <a href="#contact" class="btn">Saiba Mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-support'></i>
+                <h3>Support Assistant</h3>
+                <p>Suporte e Manutenção de Computadores, Notebooks, Smartphones e Impressoras.</p>
+                <a href="#contact" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão Portifolio "Portifolio" -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Principais <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portifolio01.jpg" alt="Animação Veiculo em movimento em uma estrada, durante a noite.">
+
+                <div class="portfolio-layer">
+                    <h4>Drive Car</h4>
+                    <p>Animação veiculo em movimento.<br>utilizando HTML, CSS e JS.</p>
+                    <a href="https://github.com/LeonardoSaconato/DriveCar-Animate"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portifolio02.jpeg" alt="Logomarca Ong Projeto Buscapet, cachorro de cor marrom ao lado de seu dono">
+
+                <div class="portfolio-layer">
+                    <h4>Ong Projeto Buscapet</h4>
+                    <p>Website instituicional Ong<br>utilizando HTML, CSS, JS e PHP.</p>
+                    <a href="https://github.com/LucasDiasSantos/Adote"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portifolio03.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Conversor de Moedas Online</h4>
+                    <p>Com todas as principais moedas e atualizado diariamente<br>utilizando HTML, CSS e JS.</p>
+                    <a href="https://github.com/LeonardoSaconato/Conversor-de-Moedas-Online"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portifolio04.png" alt="Fotografia animacao da serie de filmes matrix">
+
+                <div class="portfolio-layer">
+                    <h4>Matrix Animate</h4>
+                    <p>Animação série de filmes "Matrix"<br>utilizando HTML, CSS e JS.</p>
+                    <a href="https://github.com/LeonardoSaconato/Matrix-Animate"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portifolio05.png" alt="Logomarca empresa de tecnologia SkyNet">
+
+                <div class="portfolio-layer">
+                    <h4>SkyNet Technology</h4>
+                    <p>Landpage institucional empresa Skynet<br>utilizando HTML, CSS, JS e PHP.</p>
+                    <a href="https://github.com/LeonardoSaconato/Sky_Net"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portifolio06.png" alt="Logomarca empresa Nexus Finance">
+
+                <div class="portfolio-layer">
+                    <h4>Nexus Finance</h4>
+                    <p>Website e WebAPP Nexus Finance<br>utilizando HTML, CSS, JS , PHP, Mysql e React.</p>
+                    <a href="https://github.com/LeonardoSaconato/Nexus-Finance"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão Testesmunhos parceiros e clientes -->
+    <div class="testimonial-container">
+        <h2 class="heading">Recomendações de  <span>Parceiros & Clientes</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/parceira_marcela.jpeg" alt="Fotografia Parceira Marcela em seu escritório sorrindo">
+                        <h3>Marcela Stolagli</h3>
+                        <p>Trabalhar em grupo com o Leonardo é incrível. Tem uma energia incrível,
+                         sempre está disposto a fazer o melhor em seus projetos e muito dedicado no que faz.👏🏽</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/cliente_lucasd.jpg" alt="Fotografia cliente Lucas Medeiros (SkyNet) em seu escritorio, falando ao telefone">
+                        <h3>Lucas Medeiros(SkyNet)</h3>
+                        <p>Excelente atendimento e soluções do Leonardo, através da consultoria e 
+                        a criação de nosso Web Site conseguimos ampliar nossa rede de clientes.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/cliente_joses.jpg" alt="Fotografia cliente Jose da Silva, segurando um lustre no mostruario de sua loja">
+                        <h3>José da Silva (Nexus Finance)</h3>
+                        <p>O Leonardo é um otímo profissional, sempre buscando a melhor solução e tem grandes ideias, 
+                        tive um crescimento de 52% nas minhas vendas neste mês.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sessão Contato "Contact" -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Entre em contato <span>Comigo!</span></h2>
+
+        <form action="./php/mail.php" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Nome" name="nome" required>
+                <input type="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Celular" name="celular" required>
+                <input type="text"  placeholder="Assunto" name="assunto" required>
+            </div>
+            <textarea id="" cols="30" rows="10" placeholder="Mensagem" name="Mensagem"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
+
+    <!-- Sessão Rodapé "footer" -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; by <a href="#home">@LeonardoSSantana</a> | All Rights Reserved 2023.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts de Animação e comportamento da webpage-->
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
